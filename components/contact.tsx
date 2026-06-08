@@ -46,6 +46,7 @@ export function Contact() {
             <div className="flex h-full flex-col gap-4">
               {[
                 { icon: Phone, label: 'Call Us', value: CONTACT.phone, href: `tel:${CONTACT.phoneRaw}` },
+                 { icon: Phone, label: 'Alternate Number', value: '+91 9549655031', href: 'tel:+919549655031' },
                 { icon: MessageCircle, label: 'WhatsApp', value: CONTACT.phone, href: whatsappUrl },
                 { icon: Mail, label: 'Email', value: CONTACT.email, href: `mailto:${CONTACT.email}` },
                 { icon: MapPin, label: 'Address', value: CONTACT.address },

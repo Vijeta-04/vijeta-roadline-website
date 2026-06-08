@@ -1,6 +1,6 @@
 'use client'
 
-import { Truck, Facebook, Instagram, Linkedin, Twitter, Phone, Mail } from 'lucide-react'
+import { Truck, Phone, Mail } from 'lucide-react'
 import { NAV_LINKS, CONTACT } from '@/lib/site'
 
 const services = [
@@ -58,18 +58,7 @@ export function Footer() {
               Reliable, premium road transportation and logistics across
               Rajasthan, Punjab, Haryana and Chandigarh.
             </p>
-            <div className="mt-5 flex gap-2.5">
-              {[Facebook, Instagram, Linkedin, Twitter].map((Icon, i) => (
-                <a
-                  key={i}
-                  href="#"
-                  aria-label="Social link"
-                  className="flex h-9 w-9 items-center justify-center rounded-full border border-white/15 text-white/70 transition-all hover:border-orange hover:bg-orange hover:text-white"
-                >
-                  <Icon className="h-4 w-4" />
-                </a>
-              ))}
-            </div>
+         
           </div>
 
           <div>

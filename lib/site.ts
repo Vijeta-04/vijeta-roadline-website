@@ -5,7 +5,7 @@ export const CONTACT = {
   whatsappMessage:
     'Hello Vijeta Roadline Solutions, I would like to get a transportation quote.',
   email: 'info@vijetaroadline.com',
-  address: 'Industrial Area, Jaipur, Rajasthan, India',
+  address: 'A-4/338, New Transport Nagar, Sikar Road, Todi Mode, Jaipur, Rajasthan, India',
 }
 
 export const NAV_LINKS = [

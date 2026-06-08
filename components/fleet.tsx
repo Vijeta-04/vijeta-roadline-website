@@ -8,23 +8,23 @@ import { Reveal } from './reveal'
 const fleet = [
   {
     img: '/fleet-hero.png',
-    name: 'Long-Haul Tractor',
+    name: 'Long-Haul Truck',
     type: 'Heavy Freight',
-    capacity: 'Up to 25 Tons',
+    capacity: 'Up to 7-8 Tons',
     range: 'Pan-North India',
   },
   {
     img: '/truck-container.png',
     name: 'Container Trailer',
     type: 'Secured Cargo',
-    capacity: 'Up to 30 Tons',
+    capacity: 'Up to 9 Tons',
     range: 'Inter-State',
   },
   {
     img: '/truck-flatbed.png',
     name: 'Industrial Flatbed',
     type: 'Project Cargo',
-    capacity: 'Up to 28 Tons',
+    capacity: 'Up to 10-11 Tons',
     range: 'Heavy Machinery',
   },
   {

@@ -18,11 +18,11 @@ const services = [
     title: 'Road Transportation',
     text: 'End-to-end road freight across North India with a modern, GPS-tracked fleet.',
   },
-  {
-    icon: PackageCheck,
-    title: 'FTL Services',
-    text: 'Full Truck Load solutions for high-volume shipments — dedicated, direct and fast.',
-  },
+ {
+  icon: PackageCheck,
+  title: 'On-Time Delivery',
+  text: 'Reliable and punctual deliveries with real-time tracking and dedicated support.',
+},
   {
     icon: Boxes,
     title: 'PTL Services',
